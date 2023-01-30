@@ -1,0 +1,47 @@
+#myVideo {
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+   
+}
+
+body {
+    margin: 0;
+    margin-bottom: 0%;
+    align-items: center;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+div {
+    height: 100%;
+}
+
+a {
+   
+    font-size: 600%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    filter: blur(0.5px);
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-name: slideInLeft;
+}
+
+.Enter {
+    /* border-style: solid; 
+    border-color: white;*/
+    width: 25%;
+    height: 15%;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    
+}
+
